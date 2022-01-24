@@ -1,6 +1,3 @@
-* {
-  box-sizing: border-box;
-}
 body {
   margin: 0;
 }
@@ -31,24 +28,25 @@ body {
 .contents,
 .landing {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 .landing {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 .landing span:first-child {
-  font-size: 4rem;
+  margin-top: 3rem;
+  font-size: 3.5rem;
   font-weight: 700;
 }
 .landing span:nth-child(2) {
-  font-size: 2rem;
+  margin-top: 1rem;
+  font-size: 1.8rem;
 }
 #main-img {
-  margin-top: 4rem;
-  width: 400px;
+  margin-top: 3.5rem;
+  width: 350px;
   border-radius: 50%;
 }
 #first {
